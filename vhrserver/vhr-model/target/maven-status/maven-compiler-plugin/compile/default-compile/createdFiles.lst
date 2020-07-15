@@ -1,0 +1,8 @@
+org\javaboy\vhr\model\Position.class
+org\javaboy\vhr\model\Politicsstatus.class
+org\javaboy\vhr\model\JobLevel.class
+org\javaboy\vhr\model\Nation.class
+org\javaboy\vhr\model\Salary.class
+org\javaboy\vhr\model\RespPageBean.class
+org\javaboy\vhr\model\Department.class
+org\javaboy\vhr\model\Employee.class

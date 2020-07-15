@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0204854-a119-45b1-9493-3a886845b9e6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\env\mvn_repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dvd7zkqcBjR1s769HDVKP8BEnd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TOP\WorkSpace_idea\myvhr\vhrserver\vhr-common\src\main\resources" />
+      <recent name="D:\TOP\WorkSpace_idea\myvhr\vhrserver\vhr-mapper\src\main\java\org\javaboy\vhr\mapper" />
+      <recent name="D:\TOP\WorkSpace_idea\myvhr\vhrserver\vhr-service\src\main\java" />
+      <recent name="D:\TOP\WorkSpace_idea\myvhr\vhrserver\vhr-web\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.javaboy.vhr.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.javaboy.vhr.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestEnv">
+    <configuration name="TestEmpController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TestEmpController" />
+      <module name="vhr-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEnv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestEnv" />
+      <module name="vhr-common" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VhrApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="vhr-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.javaboy.vhr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.vhr.VhrApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestEnv" />
+        <item itemvalue="Application.TestEmpController" />
+        <item itemvalue="Spring Boot.VhrApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0204854-a119-45b1-9493-3a886845b9e6" name="Default Changelist" comment="" />
+      <created>1593309337985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593309337985</updated>
+      <workItem from="1593309341534" duration="20523000" />
+      <workItem from="1593395607838" duration="11046000" />
+      <workItem from="1593473508012" duration="10404000" />
+      <workItem from="1593920713405" duration="639000" />
+      <workItem from="1593959065286" duration="176000" />
+      <workItem from="1594773423686" duration="530000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="498" y="0" key="#Project_Structure" timestamp="1593483238004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593483238004" />
+    <state x="722" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593327853119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593327853119" />
+    <state x="494" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593396382942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="494" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593396382942" />
+    <state x="958" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1593485317992">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="958" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593485317992" />
+    <state x="390" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593400907560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="390" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1593400907560" />
+    <state x="748" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1593326384978">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="748" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593326384978" />
+    <state width="1493" height="137" key="GridCell.Tab.0.bottom" timestamp="1593485899006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="137" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593485899006" />
+    <state width="1493" height="137" key="GridCell.Tab.0.center" timestamp="1593485899006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="137" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593485899006" />
+    <state width="1493" height="137" key="GridCell.Tab.0.left" timestamp="1593485899006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="137" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593485899006" />
+    <state width="1493" height="137" key="GridCell.Tab.0.right" timestamp="1593485899006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="137" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593485899006" />
+    <state width="1493" height="211" key="GridCell.Tab.1.bottom" timestamp="1593445643469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593445643469" />
+    <state width="1493" height="211" key="GridCell.Tab.1.center" timestamp="1593445643469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593445643469" />
+    <state width="1493" height="211" key="GridCell.Tab.1.left" timestamp="1593445643468">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593445643468" />
+    <state width="1493" height="211" key="GridCell.Tab.1.right" timestamp="1593445643469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593445643469" />
+    <state width="1493" height="124" key="GridCell.Tab.2.bottom" timestamp="1593419448042">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593419448042" />
+    <state width="1493" height="124" key="GridCell.Tab.2.center" timestamp="1593419448041">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593419448041" />
+    <state width="1493" height="124" key="GridCell.Tab.2.left" timestamp="1593419448041">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593419448041" />
+    <state width="1493" height="124" key="GridCell.Tab.2.right" timestamp="1593419448042">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593419448042" />
+    <state x="874" y="160" width="561" height="524" key="StructurePopup" timestamp="1593481785328">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="874" y="160" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1593481785328" />
+    <state x="468" y="146" width="600" height="532" key="find.popup" timestamp="1593396602821">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="146" width="600" height="532" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593396602821" />
+    <state x="356" y="76" key="new project wizard" timestamp="1593959237877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="76" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593959237877" />
+    <state x="814" y="145" key="search.everywhere.popup" timestamp="1593311651612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="814" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593311651612" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/vhrserver/vhr-web/src/main/java/org/javaboy/vhr/service/impl/EmployeeServiceImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/vhrserver/vhr-service/src/main/java/org/javaboy/vhr/service/impl/EmployeeServiceImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/vhrserver/vhr-web/src/test/java/org/example/TestEmpController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/vhrserver/vhr-common/src/test/java/TestEnv.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/vhrserver/vhr-web/src/test/java/org/example/TestEmpController.java</url>
+          <line>13</line>
+          <properties class="org.example.TestEmpController" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
