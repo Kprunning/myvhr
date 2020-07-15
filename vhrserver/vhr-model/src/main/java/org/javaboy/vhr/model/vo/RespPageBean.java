@@ -1,4 +1,4 @@
-package org.javaboy.vhr.model;
+package org.javaboy.vhr.model.vo;
 
 import java.util.List;
 

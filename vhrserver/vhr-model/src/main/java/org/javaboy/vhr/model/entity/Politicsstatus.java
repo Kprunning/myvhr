@@ -1,4 +1,4 @@
-package org.javaboy.vhr.model;
+package org.javaboy.vhr.model.entity;
 
 import java.io.Serializable;
 import java.util.Objects;

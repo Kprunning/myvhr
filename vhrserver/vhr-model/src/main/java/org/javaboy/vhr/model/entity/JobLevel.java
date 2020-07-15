@@ -1,4 +1,4 @@
-package org.javaboy.vhr.model;
+package org.javaboy.vhr.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

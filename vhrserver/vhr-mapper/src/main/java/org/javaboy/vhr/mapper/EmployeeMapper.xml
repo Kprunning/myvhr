@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="org.javaboy.vhr.mapper.EmployeeMapper">
-    <resultMap id="BaseResultMap" type="org.javaboy.vhr.model.Employee">
+    <resultMap id="BaseResultMap" type="org.javaboy.vhr.model.entity.Employee">
         <id column="id" property="id" jdbcType="INTEGER"/>
         <result column="name" property="name" jdbcType="VARCHAR"/>
         <result column="gender" property="gender" jdbcType="CHAR"/>
@@ -31,24 +31,24 @@
         <result column="endContract" property="endContract" jdbcType="DATE"/>
         <result column="workAge" property="workAge" jdbcType="INTEGER"/>
     </resultMap>
-    <resultMap id="AllEmployeeInfo" type="org.javaboy.vhr.model.Employee" extends="BaseResultMap">
-        <association property="nation" javaType="org.javaboy.vhr.model.Nation">
+    <resultMap id="AllEmployeeInfo" type="org.javaboy.vhr.model.entity.Employee" extends="BaseResultMap">
+        <association property="nation" javaType="org.javaboy.vhr.model.entity.Nation">
             <id column="nid" property="id"/>
             <result column="nname" property="name"/>
         </association>
-        <association property="politicsstatus" javaType="org.javaboy.vhr.model.Politicsstatus">
+        <association property="politicsstatus" javaType="org.javaboy.vhr.model.entity.Politicsstatus">
             <id column="pid" property="id"/>
             <result column="pname" property="name"/>
         </association>
-        <association property="department" javaType="org.javaboy.vhr.model.Department">
+        <association property="department" javaType="org.javaboy.vhr.model.entity.Department">
             <id column="did" property="id"/>
             <result column="dname" property="name"/>
         </association>
-        <association property="jobLevel" javaType="org.javaboy.vhr.model.JobLevel">
+        <association property="jobLevel" javaType="org.javaboy.vhr.model.entity.JobLevel">
             <id column="jid" property="id"/>
             <result column="jname" property="name"/>
         </association>
-        <association property="position" javaType="org.javaboy.vhr.model.Position">
+        <association property="position" javaType="org.javaboy.vhr.model.entity.Position">
             <id column="posid" property="id"/>
             <result column="posname" property="name"/>
         </association>
@@ -93,6 +93,7 @@
             limit #{page},#{size}
         </if>
     </select>
+
     <select id="getTotal" resultType="java.lang.Long">
         select count(*) from employee e
         <where>
@@ -124,4 +125,189 @@
             </if>
         </where>
     </select>
+
+    <insert id="insertSelective" parameterType="org.javaboy.vhr.model.entity.Employee" useGeneratedKeys="true"
+            keyProperty="id">
+        insert into employee
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="name != null">
+                name,
+            </if>
+            <if test="gender != null">
+                gender,
+            </if>
+            <if test="birthday != null">
+                birthday,
+            </if>
+            <if test="idCard != null">
+                idCard,
+            </if>
+            <if test="wedlock != null">
+                wedlock,
+            </if>
+            <if test="nationId != null">
+                nationId,
+            </if>
+            <if test="nativePlace != null">
+                nativePlace,
+            </if>
+            <if test="politicId != null">
+                politicId,
+            </if>
+            <if test="email != null">
+                email,
+            </if>
+            <if test="phone != null">
+                phone,
+            </if>
+            <if test="address != null">
+                address,
+            </if>
+            <if test="departmentId != null">
+                departmentId,
+            </if>
+            <if test="jobLevelId != null">
+                jobLevelId,
+            </if>
+            <if test="posId != null">
+                posId,
+            </if>
+            <if test="engageForm != null">
+                engageForm,
+            </if>
+            <if test="tiptopDegree != null">
+                tiptopDegree,
+            </if>
+            <if test="specialty != null">
+                specialty,
+            </if>
+            <if test="school != null">
+                school,
+            </if>
+            <if test="beginDate != null">
+                beginDate,
+            </if>
+            <if test="workState != null">
+                workState,
+            </if>
+            <if test="workID != null">
+                workID,
+            </if>
+            <if test="contractTerm != null">
+                contractTerm,
+            </if>
+            <if test="conversionTime != null">
+                conversionTime,
+            </if>
+            <if test="notWorkDate != null">
+                notWorkDate,
+            </if>
+            <if test="beginContract != null">
+                beginContract,
+            </if>
+            <if test="endContract != null">
+                endContract,
+            </if>
+            <if test="workAge != null">
+                workAge,
+            </if>
+        </trim>
+        <trim prefix=" values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbyType=INTEGER},
+            </if>
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="gender != null">
+                #{gender,jdbcType=CHAR},
+            </if>
+            <if test="birthday != null">
+                #{birthday,jdbcType=DATE},
+            </if>
+            <if test="idCard != null">
+                #{idCard,jdbcType=CHAR},
+            </if>
+            <if test="wedlock != null">
+                #{wedlock,jdbcType=CHAR},
+            </if>
+            <if test="nationId != null">
+                #{nationId,jdbcType=INTEGER},
+            </if>
+            <if test="nativePlace != null">
+                #{nativePlace,jdbcType=VARCHAR},
+            </if>
+            <if test="politicId != null">
+                #{politicId,jdbcType=INTEGER},
+            </if>
+            <if test="email != null">
+                #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="phone != null">
+                #{phone,jdbcType=VARCHAR},
+            </if>
+            <if test="address != null">
+                #{address,jdbcType=VARCHAR},
+            </if>
+            <if test="departmentId != null">
+                #{departmentId,jdbcType=INTEGER},
+            </if>
+            <if test="jobLevelId != null">
+                #{jobLevelId,jdbcType=INTEGER},
+            </if>
+            <if test="posId != null">
+                #{posId,jdbcType=INTEGER},
+            </if>
+            <if test="engageForm != null">
+                #{engageForm,jdbcType=VARCHAR},
+            </if>
+            <if test="tiptopDegree != null">
+                #{tiptopDegree,jdbcType=CHAR},
+            </if>
+            <if test="specialty != null">
+                #{specialty,jdbcType=VARCHAR},
+            </if>
+            <if test="school != null">
+                #{school,jdbcType=VARCHAR},
+            </if>
+            <if test="beginDate != null">
+                #{beginDate,jdbcType=DATE},
+            </if>
+            <if test="workState != null">
+                #{workState,jdbcType=CHAR},
+            </if>
+            <if test="workID != null">
+                #{workID,jdbcType=CHAR},
+            </if>
+            <if test="contractTerm != null">
+                #{contractTerm,jdbcType=DOUBLE},
+            </if>
+            <if test="conversionTime != null">
+                #{conversionTime,jdbcType=DATE},
+            </if>
+            <if test="notWorkDate != null">
+                #{notWorkDate,jdbcType=DATE},
+            </if>
+            <if test="beginContract != null">
+                #{beginContract,jdbcType=DATE},
+            </if>
+            <if test="endContract != null">
+                #{endContract,jdbcType=DATE},
+            </if>
+            <if test="workAge != null">
+                #{workAge,jdbcType=INTEGER},
+            </if>
+        </trim>
+    </insert>
+
+    <select id="getEmployeeById" resultMap="AllEmployeeInfo">
+        select e.*,p.`id` as pid,p.`name` as pname,n.`id` as nid,n.`name` as nname,d.`id` as did,d.`name` as
+        dname,j.`id` as jid,j.`name` as jname,pos.`id` as posid,pos.`name` as posname from employee e,nation
+        n,politicsstatus p,department d,joblevel j,position pos where e.`nationId`=n.`id` and e.`politicId`=p.`id` and
+        e.`departmentId`=d.`id` and e.`jobLevelId`=j.`id` and e.`posId`=pos.`id` and e.`id`=#{id}
+    </select>
+
 </mapper>

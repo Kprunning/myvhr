@@ -1,4 +1,4 @@
-package org.javaboy.vhr.model;
+package org.javaboy.vhr.model.entity;
 
 import java.util.ArrayList;
 import java.util.List;

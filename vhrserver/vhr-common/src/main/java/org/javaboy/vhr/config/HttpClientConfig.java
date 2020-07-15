@@ -15,7 +15,6 @@ import org.springframework.core.env.Environment;
 import java.util.concurrent.TimeUnit;
 
 @Configuration
-//@ImportResource("classpath:httpclient.properties")
 @PropertySource("classpath:httpclient.properties")
 public class HttpClientConfig {
     // 属性文件会加载到Spring的Environment中,目前这个加载存在问题,environment为null

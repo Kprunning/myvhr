@@ -1,13 +1,11 @@
 package org.javaboy.vhr.controller.emp;
 
-import org.javaboy.vhr.model.Employee;
-import org.javaboy.vhr.model.RespPageBean;
+import org.javaboy.vhr.model.entity.Employee;
+import org.javaboy.vhr.model.vo.RespBean;
+import org.javaboy.vhr.model.vo.RespPageBean;
 import org.javaboy.vhr.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
 
@@ -30,8 +28,14 @@ public class EmpBasicController {
      */
     @GetMapping("/")
     public RespPageBean getEmployeeByPage(@RequestParam(defaultValue = "1") Integer page, @RequestParam(defaultValue = "10") Integer size, Employee employee, Date[] beginDateScope){
-        System.out.println("hello..............");
         return employeeService.getEmployeeByPage(page,size,employee,beginDateScope);
     }
 
+    @PostMapping
+    public RespBean addEmp(@RequestBody Employee employee) {
+        if (employeeService.addEmp(employee) == 1) {
+            return RespBean.ok("添加成功!");
+        }
+        return RespBean.error("添加失败!");
+    }
 }
